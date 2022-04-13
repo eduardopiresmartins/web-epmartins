@@ -1,0 +1,122 @@
+.home {
+    background-color: $preto-principal;
+    color: white;
+    height: auto;
+    font-family: $font-primaria;
+    padding: 80px 0px;
+
+
+    .container__home {
+        display: flex;
+        flex-direction: row;
+
+        .container__home--texto{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 35px;
+
+            h2{
+                color: $texto-cor-destaques;
+                font-weight: bold;
+                font-size: 1.2em;
+                margin-left: 35px;
+                margin-bottom: 15px;
+            }
+            h1{
+                margin-left: 35px;
+                margin-bottom: 15px;
+                font-size: 3.8em;
+                color: $texto-cor-primaria;
+                
+                
+            }
+
+            p {
+                margin-left: 35px;
+                margin-bottom: 15px;
+                color: $texto-cor-secundaria;
+                font-size: 1.3em;
+                line-height: 1.8em;
+            }
+
+
+            .container__home--local{
+                margin-left: 35px;
+                color: $texto-cor-secundaria;
+                display: flex;
+                align-items: center;
+
+                .local--img{
+                    img{
+                        height: 30px;
+                    }
+                }
+              
+            }
+
+            .container__home--pontos{
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 35px;
+
+                    li {
+                        margin-left: 15px;
+                        font-size: 2.5em;
+                        color: #9933FF;
+                    }
+                }
+            }
+
+            .container__home--social{
+                margin-top: 35px;
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 35px;
+
+                    
+                    
+                    li{
+                        background-color: #313131;
+                        border-radius: 50%;
+                        margin: 0px 5px ;
+                        height: 45px;
+                        width: 45px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition: 0.7s ease-in-out;
+                        &:hover{
+                            transform: scale(1.2);
+                        }
+
+                        a{
+                            text-decoration: none;
+
+                            img{
+                                height: 22px;
+
+                            }
+                            #youtube{
+                                margin-top: 6px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .container__home--logo{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            img{
+                height: 400px;
+            }
+        }
+    }
+}
