@@ -1,0 +1,48 @@
+.fazer {
+    background-color: $preto-principal;
+    height: 400px;
+    color: $texto-cor-primaria;
+    font-family: $font-primaria;
+
+    .container__fazer{
+        display: flex;
+        align-items: center;
+
+        .container__fazer--texto {
+            width: 50%;
+            padding-left: 65px;
+            h2{
+                font-size: 2.5em;
+                line-height: 80px;
+                
+            }
+            .divisao{
+                border: 1px solid $texto-cor-destaques;
+                width: 20%;
+                margin-bottom: 35px;
+            }
+            h3{
+                font-size: 2.1em;
+                margin-bottom: 30px;
+            }
+
+            p{
+                font-size: 1.2em;
+                color: $texto-cor-secundaria;
+            }
+
+
+        }
+        .container__fazer--img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+
+            img{
+                width: 300px;
+            }
+            
+        }
+    }
+}

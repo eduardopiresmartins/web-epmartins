@@ -1,0 +1,6 @@
+$preto-principal : #0A0A0A;
+$branco-secundario : #FFFFFF;
+
+$texto-cor-primaria : #FFFFFF;
+$texto-cor-secundaria : #232323;
+$texto-cor-destaques : #9933FF;
