@@ -1,128 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/favicon_package_v0.16/favicon-32x32.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/favicon_package_v0.16/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <title>Eduardo Pires</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <!--STYLES-->
-    <link rel="stylesheet" href="src/sass/main.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="src/sass/main.css" />
+  </head>
+  <body>
     <header>
-        <nav class="container__nav">
-           
+      <nav class="container__nav">
         <div class="container__nav--logo">
           <a class="logo" src="/assets/Logo/Marca EPMartins - Branco.png">
-            <img src="/assets/Logo/Marca EPMartins - Branco.png" alt="Logo EPMartins em branco">
+            <img
+              src="/assets/Logo/Marca EPMartins - Branco.png"
+              alt="Logo EPMartins em branco"
+            />
           </a>
         </div>
-          <div class="container__nav--lista">
-            <ul class="nav--lista">
-              <li><a class="title" href="#home">Home</a></li>
-              <li><a class="title" href="#about">Quem sou</a></li>
-              <li><a class="title" href="#services">O que faço</a></li>
-              <li><a class="title" href="#portifolio">Portifólio</a></li>
-              <li><a class="title" href="#blog">Blog</a></li>
-              <li><a class="title" href="#contact">Contato</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      
-      <main>
-        <section class="home">
-          <div class="container__home">
-            <div class="container__home--texto">
-              <h2>HI, I'M</h2>
-              <h1>Eduardo Pires</h1>
-              <p>Desenvolvedor Full Stack, desenvolvimento de soluções <br> tecnológia,para resultados 
-              robustos</p>
-              <div class="container__home--local">
-                <div class="local--img"><img src="assets/icones/localizacao.png" alt="Localização"> </div>
-                <div class="local--texto" > São Paulo, Brasil</div>
+        <div class="container__nav--lista">
+          <ul class="nav--lista">
+            <li><a class="title" href="#home">Home</a></li>
+            <li><a class="title" href="#about">Quem sou</a></li>
+            <li><a class="title" href="#services">O que faço</a></li>
+            <li><a class="title" href="#portifolio">Portifólio</a></li>
+            <li><a class="title" href="#blog">Blog</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home">
+        <div class="container__home">
+          <div class="container__home--texto">
+            <h2>HI, I'M</h2>
+            <h1>Eduardo Pires</h1>
+            <p>
+              Desenvolvedor Full Stack, desenvolvimento de soluções <br />
+              tecnológia,para resultados robustos
+            </p>
+            <div class="container__home--local">
+              <div class="local--img">
+                <img src="assets/icones/localizacao.png" alt="Localização" />
               </div>
-
-              <div class="container__home--pontos">
-               <ul>
-                 <li>.</li>
-                 <li>.</li>
-                 <li>.</li>
-                 <li>.</li>
-                 <li>.</li>
-                 <li>.</li>
-                 <li>.</li>
-                 <li>.</li>
-               </ul>
-              </div>
-
-              <!-- <div class="container__home--imgpontos">
-                <img src="/assets/img/Pontos.svg" alt="">
-              </div> -->
-              
-              <div class="container__home--social">
-                <ul class="home--social">
-                  <li> <a href="#">
-                    <img src="assets/icones/linkedin.png" alt="Logo - linkedin"></a> </li>
-                  <li> <a href="#">
-                    <img src="assets/icones/github.png" alt="Logo - GitHub"></a> </li>
-                  <li> <a href="#">
-                    <img src="assets/icones/instagram.png" alt="Logo - Instagram"></a> </li>
-                  <li> <a href="#">
-                    <img src="assets/icones/facebook.png" alt="Logo - Facebook"></a> </li>
-                  <li> <a href="#">
-                    <img src="assets/icones/discord.png" alt="Logo - Discord"></a> </li>
-                  <li> <a href="#">
-                    <img src="assets/icones/youtube.png" alt="Logo - Youtube" id="youtube"></a> </li>
-                 
-                </ul>
-              </div>
-            </div>
-            <div class="container__home--logo">
-              <img src="/assets/Logo/S¡mbolo EP - Gradiente - Com Tagline.png" 
-              alt="S¡mbolo EP - Gradiente - Com Tagline">
-            </div>
-          </div>
-        </section>
-
-        <section class="fazer">
-          <div class="container__fazer">
-            <div class="container__fazer--texto">
-              <h2>O que eu faço?</h2>
-              <div class="divisao"></div>
-
-              <h3>Desenvolvimento Mobile</h3>
-              <p>Grande parte da web está nos dispositivos mobile, de <br>
-              forma que se tornou necessário construir interfaces que <br>
-              se adaptem aos diferentes tamanhos e resoluções. <br>
-              Proporcionar uma experiência agradável e completa ao <br>
-              usuário, independente do dispositivo acessado</p>
+              <div class="local--texto">São Paulo, Brasil</div>
             </div>
 
-            <div class="container__fazer--img">
-              <img src="assets/img/desktop-assets.png" alt="Celular">
+            <div class="container__home--pontos">
+              <ul>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+              </ul>
+            </div>
+
+            <div class="container__home--social">
+              <ul class="home--social">
+                <li>
+                  <a href="#">
+                    <img src="assets/icones/linkedin.png" alt="Logo - linkedin"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/icones/github.png" alt="Logo - GitHub"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="assets/icones/instagram.png"
+                      alt="Logo - Instagram"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/icones/facebook.png" alt="Logo - Facebook"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/icones/discord.png" alt="Logo - Discord"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="assets/icones/youtube.png"
+                      alt="Logo - Youtube"
+                      id="youtube"
+                  /></a>
+                </li>
+              </ul>
             </div>
           </div>
+          <div class="container__home--logo">
+            <img
+              src="/assets/Logo/S¡mbolo EP - Gradiente - Com Tagline.png"
+              alt="S¡mbolo EP - Gradiente - Com Tagline"
+            />
+          </div>
+        </div>
+      </section>
 
-        </section>
-      </main>
-  
+      <section class="fazer">
+        <div class="container__fazer">
+          <div class="container__fazer--texto">
+            <h2>O que eu faço?</h2>
+            <div class="divisao"></div>
 
-  
-      <!-- swiper -->
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  
-      <!-- scrollreveal -->
-      <script src="https://unpkg.com/scrollreveal"></script>
-  
-      <!-- main.js -->
-      <script src="main.js"></script>
-    </body>
-  </html>
+            <h3>Desenvolvimento Mobile</h3>
+            <p>
+              Grande parte da web está nos dispositivos mobile, de <br />
+              forma que se tornou necessário construir interfaces que <br />
+              se adaptem aos diferentes tamanhos e resoluções. <br />
+              Proporcionar uma experiência agradável e completa ao <br />
+              usuário, independente do dispositivo acessado
+            </p>
+          </div>
+
+          <div class="container__fazer--img">
+            <img src="assets/img/desktop-assets.png" alt="Celular" />
+          </div>
+        </div>
+      </section>
+
+      <section class="blog">
+        <h2>Blog</h2>
+        <div class="divisao"></div>
+
+        <div class="container__blog">
+          <div class="container__blogs">
+            <div class="container__blogs--img">
+              <img src="assets/img/capapost1.png" alt="img--blog" />
+            </div>
+            <div class="container__blogs--text">
+              <span>10 de outubro, 2021</span>
+              <h3>O que estudar para se tornar um desenvolvedor back-end</h3>
+              <p>
+                O desenvolvedor #backend é aquele dev responsavel por
+                desenvolver a camada interna do settings_system_daydream, toda
+                codifição envolvendo banco...
+              </p>
+            </div>
+            <a href="#">Ver mais</a>
+          </div>
+          <div class="container__blogs">
+            <div class="container__blogs--img">
+              <img src="assets/img/capapost2.png" alt="img--blog" />
+            </div>
+            <div class="container__blogs--text">
+              <span>10 de outubou, 2021</span>
+              <h3>O que estudar para se tornar um desenvolvedor front-end</h3>
+              <p>
+                É muito comum ver pessoas em inicio ou transição de carreira,
+                com dúvidas sobre o que e em se aprofundar para se tornar ...
+              </p>
+            </div>
+            <a href="#">Ver mais</a>
+          </div>
+          <div class="container__blogs">
+            <div class="container__blogs--img">
+              <img src="assets/img/capapost3.png" alt="img--blog" />
+            </div>
+            <div class="container__blogs--text">
+              <span>10 de outubro, 2021</span>
+              <h3>10 soft-skills para profissionais de T.I</h3>
+              <p>
+                É muito comum ver pessoas em início ou transição de carreira,
+                com dúvida sobre o que estudar e em que se aprofundar para se
+                tornar ...
+              </p>
+            </div>
+
+            <a href="#">Ver mais</a>
+          </div>
+        </div>
+
+        <div class="container__blog--botao">
+          <div class="blog--botao">
+            <div class="blog--texto">
+              <a href="#">Ver Mais</a>
+            </div>
+            <div class="blog--img">
+              <img src="assets/icones/seta-direita.png" alt="">
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
+    <script src="main.js"></script>
+  </body>
+</html>
