@@ -17,9 +17,11 @@
                 
             }
             .divisao{
-                border: 1px solid $texto-cor-destaques;
-                width: 20%;
                 margin-bottom: 35px;
+                width: 103.25955963134766px;
+                height: 4px;                
+
+                background: linear-gradient(90deg, #9532F7 0%, #150D1D 100%);
             }
             h3{
                 font-size: 2.1em;
@@ -34,6 +36,7 @@
 
         }
         .container__fazer--img{
+            
             display: flex;
             align-items: center;
             justify-content: center;
