@@ -337,7 +337,7 @@ table {
 
 .blog {
   background-color: #0A0A0A;
-  height: auto;
+  height: 1000px;
   padding-left: 65px;
   padding-right: 65px;
   font-family: "Saira", sans-serif;
@@ -486,5 +486,106 @@ table {
   line-height: 25px;
   font-weight: 300;
   color: #5c5b5b;
+}
+
+.contato {
+  background-image: url(../../../assets/img/rocketcloud.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  background-color: #0A0A0A;
+  color: #FFF;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 50px;
+}
+
+.contato .container__contato {
+  height: auto;
+}
+
+.contato .container__contato h2 {
+  padding-top: 45px;
+  margin-bottom: 15px;
+  font-size: 3em;
+  color: #FFFFFF;
+  font-family: "Saira", sans-serif;
+  font-weight: 400;
+}
+
+.contato .container__contato .divisao {
+  margin-bottom: 35px;
+  width: 103.25955963134766px;
+  height: 4px;
+  background: -webkit-gradient(linear, left top, right top, from(#9532F7), to(#150D1D));
+  background: linear-gradient(90deg, #9532F7 0%, #150D1D 100%);
+}
+
+.contato .container__contato .container__contato--texto {
+  margin-top: 37px;
+  font-family: "Saira", sans-serif;
+}
+
+.contato .container__contato .container__contato--texto h3 {
+  font-size: 3em;
+  max-width: 45%;
+  line-height: 60px;
+  font-weight: 400;
+  margin-bottom: 37px;
+}
+
+.contato .container__contato .container__contato--texto p {
+  font-size: 1.3em;
+  color: #a0a0a0;
+  margin-bottom: 37px;
+}
+
+.contato .container__contato .container__contato--botoa {
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.contato .container__contato .container__contato--botoa .botao--caixa {
+  width: 172px;
+  height: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: -webkit-gradient(linear, left top, right top, from(#8620E0), to(#F900F1));
+  background: linear-gradient(90deg, #8620E0 0%, #F900F1 100%);
+  border-radius: 8px;
+}
+
+.contato .container__contato .container__contato--botoa .botao--caixa .botao--text a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.125em;
+  font-weight: 300;
+}
+
+.contato .container__contato .container__contato--botoa .botao--caixa .botao--img img {
+  width: 24px;
+  border-radius: 25px;
 }
 /*# sourceMappingURL=main.css.map */

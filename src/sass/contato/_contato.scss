@@ -1,0 +1,83 @@
+.contato{
+    background-image: url(../../../assets/img/rocketcloud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    background-color: $preto-principal;
+    color: #FFF;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 50px;
+
+    .container__contato{
+        height: auto;
+
+        h2{
+            padding-top: 45px;
+            margin-bottom: 15px;
+            font-size: 3em;
+            color: $texto-cor-primaria;
+            font-family: $font-primaria;
+            font-weight: 400;
+        }
+        .divisao{
+        margin-bottom: 35px;
+        width: 103.25955963134766px;
+        height: 4px;                
+        background: linear-gradient(90deg, #9532F7 0%, #150D1D 100%);
+    
+    }
+    .container__contato--texto{
+        margin-top: 37px;
+        font-family: $font-primaria;
+
+        h3{
+            font-size: 3em;
+            max-width: 45%;
+            line-height: 60px;
+            font-weight: 400;
+            margin-bottom: 37px;
+        }
+        p{
+            font-size: 1.3em;
+            color: $textp-cor-terceira;
+            margin-bottom: 37px;
+        }
+    }
+    .container__contato--botoa{
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+
+        .botao--caixa{
+            width: 172px;
+            height: 43px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-evenly;
+            background: linear-gradient(90deg, #8620E0 0%, #F900F1 100%);
+            border-radius: 8px;
+
+            .botao--text{
+                a{
+                    text-decoration: none;
+                    color: $texto-cor-primaria;
+                    font-size: 1.125em;
+                    font-weight: 300;
+                }
+            }
+
+            .botao--img{
+
+                img{
+                    width: 24px;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+}
+}
