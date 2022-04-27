@@ -75,7 +75,7 @@ table {
 }
 
 .container__nav .container__nav--logo img {
-  height: 20px;
+  height: 17px;
 }
 
 .container__nav .container__nav--lista {
@@ -113,7 +113,7 @@ table {
   color: #FFFFFF;
   font-family: "Saira";
   font-style: "Saira", sans-serif;
-  font-weight: 300;
+  font-weight: 00;
   font-size: 1.1em;
   -webkit-transition: 1s ease;
   transition: 1s ease;
@@ -169,7 +169,7 @@ table {
   margin-left: 35px;
   margin-bottom: 15px;
   font-family: "Saira" sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 5em;
   color: #FFFFFF;
 }
@@ -523,7 +523,7 @@ table {
 .contato .container__contato h2 {
   padding-top: 45px;
   margin-bottom: 15px;
-  font-size: 3em;
+  font-size: 3.25em;
   color: #FFFFFF;
   font-family: "Saira", sans-serif;
   font-weight: 400;
@@ -544,7 +544,7 @@ table {
 }
 
 .contato .container__contato .container__contato--texto h3 {
-  font-size: 3em;
+  font-size: 2.5em;
   max-width: 45%;
   line-height: 60px;
   font-weight: 300;
