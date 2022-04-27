@@ -1,0 +1,101 @@
+footer{
+    height: auto;
+    padding: 45px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0A0A0A;
+
+    .divisao--footer{
+        height: 1px;
+        background: linear-gradient(90deg, #150D1D 0%, #9532F7 100%);
+        width: 90%;
+        margin-bottom: 35px;
+        
+    }
+    .container__footer{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-direction: row;
+
+        .container__footer--infos{
+            display: flex;
+            padding: 15px 25px;
+            //align-items: center;
+            flex-direction: column;
+            color: #FFF;
+            width: 50%;
+            h2{
+                font-size: 2em;
+                margin-bottom: 5px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 400;
+                font-family: Saira;
+                color: #A0A0A0 ;
+                padding-bottom: 15px;
+            }
+
+            .container__footer--form{
+                width: 100%;
+
+                input{
+                    background-color: #1B1B1B;
+                    padding: 5px 15px;
+                    width: 412px;
+                    height: 36px;
+                    border: none;
+                    border-radius: 5px;
+                    margin-right: 8px;
+
+                }
+
+                button{
+                    border-radius: 5px;
+                    padding: 5px 15px;
+                    height: 36px;
+                    width: 158px;
+                    border: none;
+                    background: linear-gradient(90deg, #F900F1 0%, #8620E0 100%);
+                    color: #FFF;
+                }
+            }
+        }
+
+
+        .container__footer--img{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                height: 70px;
+            }
+        }
+    }
+
+    .container__footer--direitos{
+        margin-top: 15px;
+        text-align: center;
+        background-color: #1B1B1B;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            font-size: 1.2em;
+            color: #A0A0A0
+            ;
+
+            img{
+                margin: 0px 5px;
+                height: 12px;
+            }
+        }
+    }
+}

@@ -5,8 +5,9 @@
     flex-direction: row;
     justify-content: space-around;
     height: 80px;
-    border-bottom: 2px solid $texto-cor-destaques;
-
+    //border-bottom: 2px solid $texto-cor-destaques;
+   
+   
     .container__nav--logo{
         display: flex;
         align-items: center;
@@ -47,4 +48,23 @@
             }
         }
     }
+
+
+}
+
+.container__divisao{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: #0A0A0A;
+    .divisao--header{
+        height: 1px;
+        background: linear-gradient(90deg, #150D1D 0%, #9532F7 100%);
+        width: 90%;
+        //margin-bottom: 35px;
+    
+    }
+
+
 }

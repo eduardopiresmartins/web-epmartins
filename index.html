@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
   <head>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,8 +21,13 @@
 
     <!--STYLES-->
     <link rel="stylesheet" href="src/sass/main.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
   </head>
+
   <body>
+
     <header>
       <nav class="container__nav">
         <div class="container__nav--logo">
@@ -43,6 +49,13 @@
           </ul>
         </div>
       </nav>
+      <div class="container__divisao">
+        <div class="divisao--header">
+      </div>
+
+      </div>
+
+
     </header>
 
     <main>
@@ -72,6 +85,8 @@
                 <li>.</li>
                 <li>.</li>
                 <li>.</li>
+                <li>.</li>
+
               </ul>
             </div>
 
@@ -216,6 +231,56 @@
         </div>
       </section>
 
+      <section class="equipe">
+        <h2>Equipe</h2>
+        <div class="divisao__equipe"></div>
+
+
+        <div class="contianer__equipe">
+          <div class="equipe--card">
+              <div class="equipe--img">
+                  <img src="https://1.bp.blogspot.com/-8c7QTLoyajs/YLjr2V6KYRI/AAAAAAAACO8/ViVPQpLWVM0jGh3RZhh-Ha1-1r3Oj62wQCNcBGAsYHQ/s16000/team-1-3.jpg">
+              </div>
+              <div class="equipe--infos">
+                  <h3>Pedro Trudes</h3>
+                  <p>Desenvolvedor <br>Front-end</p>
+                  <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="equipe--card">
+            <div class="equipe--img">
+                  <img src="https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg">
+              </div>
+              <div class="equipe--infos">
+                  <h3>Lucas Buff</h3>
+                  <p>Desenvolvedor <br>Full-Stack</p>
+                  <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="equipe--card">
+            <div class="equipe--img">
+                  <img src="https://1.bp.blogspot.com/-AO5j2Y9lzME/YLjr3mxiqAI/AAAAAAAACPE/KAaYYTtQTrgBE3diTbxGoc4U4fCGx-C2gCNcBGAsYHQ/s16000/team-1-4.jpg">
+              </div>
+              <div class="equipe--infos">
+                  <h3>Isabela Leister</h3>
+                  <p>Fotógrafa</p>
+                  <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
 
       <section class="contato">
           <div class="container__contato">
@@ -237,7 +302,33 @@
               </div>
           </div>
       </section>
+
     </main>
+
+
+    <footer>
+      <div class="divisao--footer"></div>
+      <div class="container__footer">
+        <div class="container__footer--img">
+          <img src="assets/Logo/Marca EPMartins - Gradiente - Com tagline.png" alt="Lofo EpMartins Freelancer developer">
+        </div>
+        <div class="container__footer--infos">
+          <h2>Quer ser avisado dos novos posts do blog?</h2>
+          <p>conteúdo e notícias sobre técnologia</p>
+          <div class="container__footer--form">
+            <input type="email" name="email" id="email" placeholder="Digite seu melhor e-mail">
+            <button type="submit" class="cadastrar--btn">Cadastrar
+              <img src="#" alt="flecha">
+            </button>
+          </div>
+        </div>
+        
+      </div>
+      <div class="container__footer--direitos">
+        <p>Todos os direitos reservados <i><img src="assets/icones/direito-autoral.png" alt=""></i> 2021 - 2022</p>
+      </div>
+    </footer>
+
 
     <!-- swiper -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -247,5 +338,6 @@
 
     <!-- main.js -->
     <script src="main.js"></script>
+
   </body>
 </html>
