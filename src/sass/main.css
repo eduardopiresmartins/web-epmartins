@@ -559,7 +559,7 @@ table {
 .contato .container__contato .container__contato--texto {
   margin-top: 37px;
   font-family: "Saira", sans-serif;
-  font-weight: 00,
+  font-weight: 100,
 }
 
 .contato .container__contato .container__contato--texto h3 {
@@ -620,7 +620,7 @@ table {
   color: #FFFFFF;
   font-family: "Saira", sans-serif;
   font-size: 1.125em;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .contato .container__contato .container__contato--botoa .botao--caixa .botao--img img {
@@ -649,8 +649,8 @@ footer .divisao--footer {
   height: 1px;
   background: -webkit-gradient(linear, left top, right top, from(#150D1D), to(#9532F7));
   background: linear-gradient(90deg, #150D1D 0%, #9532F7 100%);
-  width: 90%;
-  margin-bottom: 35px;
+  width: 100%;
+  margin-bottom: 95px;
 }
 
 footer .container__footer {
@@ -681,16 +681,18 @@ footer .container__footer .container__footer--infos {
 }
 
 footer .container__footer .container__footer--infos h2 {
-  font-size: 2em;
-  margin-bottom: 5px;
+  font-size: 1.875em;
+  font-family: Saira, sans-serif;
+  font-weight: 300;
+  margin-bottom: 25px;
 }
 
 footer .container__footer .container__footer--infos p {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 1.125em;
   font-family: Saira;
+  font-weight: 100;
   color: #A0A0A0;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 footer .container__footer .container__footer--infos .container__footer--form {
@@ -705,7 +707,13 @@ footer .container__footer .container__footer--infos .container__footer--form inp
   border: none;
   border-radius: 5px;
   margin-right: 8px;
+
+  font-size: 0.813em;
+  font-family: Saira;
+  font-weight: 100;
 }
+
+
 
 footer .container__footer .container__footer--infos .container__footer--form button {
   border-radius: 5px;
@@ -736,7 +744,7 @@ footer .container__footer .container__footer--img img {
 }
 
 footer .container__footer--direitos {
-  margin-top: 15px;
+  margin-top: 95px;
   text-align: center;
   background-color: #1B1B1B;
   width: 100%;
@@ -753,7 +761,9 @@ footer .container__footer--direitos {
 }
 
 footer .container__footer--direitos p {
-  font-size: 1.2em;
+  font-size: 0.938em;
+  font-family: Saira;
+  font-weight: 200;
   color: #A0A0A0;
 }
 
