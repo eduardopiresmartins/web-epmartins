@@ -1,19 +1,18 @@
 .contato{
     background-image: url(../../../assets/img/rocketcloud.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
+    background-position: top;
+    background-size: contain;
+    height: 800px;
     background-color: $preto-principal;
     color: #FFF;
     padding-left: 65px;
     padding-right: 65px;
-    padding-top: 50px;
 
     .container__contato{
         height: auto;
-
+        
         h2{
-            padding-top: 45px;
             margin-bottom: 15px;
             font-size: 3em;
             color: $texto-cor-primaria;
