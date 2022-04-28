@@ -28,7 +28,6 @@
                 margin-left: 10px;
                 padding-right: 10px ;
                 list-style: none;
-                border-right: 2px solid $texto-cor-destaques;
 
                 &:last-child{
                     border-right: none;
@@ -40,9 +39,12 @@
                     font-style: $font-primaria;
                     font-size: 1.4em;
                     transition: 1s ease;
+                    padding-bottom: 10px;
+
 
                     &:hover{
-                        color: $texto-cor-destaques;
+                        border-bottom: 1px solid #9933FF;
+
                     }
                 }
             }

@@ -1,0 +1,37 @@
+<ul class="home--social">
+                <li>
+                  <a href="#">
+                    <img src="assets/icones/linkedin.png" alt="Logo - linkedin"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/icones/github.png" alt="Logo - GitHub"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="assets/icones/instagram.png"
+                      alt="Logo - Instagram"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/icones/facebook.png" alt="Logo - Facebook"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/icones/discord.png" alt="Logo - Discord"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="assets/icones/youtube.png"
+                      alt="Logo - Youtube"
+                      id="youtube"
+                  /></a>
+                </li>
+              </ul>
