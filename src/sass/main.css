@@ -59,9 +59,11 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 80px;
+  width: 100%;
 }
 
 .container__nav .container__nav--logo {
@@ -71,6 +73,10 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 75px;
 }
 
 .container__nav .container__nav--logo img {
@@ -84,6 +90,7 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 75px;
 }
 
 .container__nav .container__nav--lista .nav--lista {

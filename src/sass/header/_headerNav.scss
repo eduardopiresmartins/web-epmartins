@@ -3,14 +3,21 @@
     width: 100%;  
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    
     height: 80px;
+    width: 100%;
     //border-bottom: 2px solid $texto-cor-destaques;
    
    
     .container__nav--logo{
         display: flex;
         align-items: center;
+        justify-content: flex-start;
+        //border: 1px solid red;
+        margin-left: 75px;
+
+        
         img{
             height: 20px;
         }
@@ -19,6 +26,8 @@
     .container__nav--lista {
         display: flex;
         align-items: center;
+        //border: 1px solid red;
+        margin-right: 75px;
         
         .nav--lista{
             display: flex;
