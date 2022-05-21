@@ -25,13 +25,18 @@
                 align-items: flex-end;
                 justify-content: space-between;
                 width: 100%;
+
                 
                 h2{
-                    color: $texto-cor-destaques;
-                    font-weight: bold;
-                    font-size: 1.2em;
+                    
+                    font-size: 1.25em;
+                    font-family: Saira;
+                    font-weight:400;
                     margin-left: 35px;
                     margin-bottom: 15px;
+                    background: linear-gradient(to right, #9933FF 0%, #F900F1);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
                 }
 
                 img{
@@ -44,7 +49,9 @@
             h1{
                 margin-left: 35px;
                 margin-bottom: 15px;
-                font-size: 3.8em;
+                font-size: 5em;
+                font-family: Saira;
+                font-weight: 300;
                 color: $texto-cor-primaria;
                 
                 
@@ -54,9 +61,12 @@
                 margin-left: 35px;
                 margin-bottom: 15px;
                 color: $texto-cor-secundaria;
-                font-size: 1.3em;
+                font-size: 1.25em;
+                font-family: Saira;
+                font-weight: 200;
                 line-height: 1.8em;
             }
+
 
 
             .container__home--local{
@@ -70,21 +80,37 @@
                         height: 30px;
                     }
                 }
-              
+              .local--texto{
+                  font-size: 1em;
+                  font-family: Saira;
+                  font-weight: 300;
+              }
             }
 
             .container__home--pontos{
-                ul{
-                    display: flex;
-                    flex-direction: row;
-                    margin-left: 35px;
+               img{
+                height: 17.559999942779541px;
+                width: 272.94000244140625px;
+                left: 90px;
+                top: 477px;
+                border-radius: 0px;
 
-                    li {
-                        margin-left: 15px;
-                        font-size: 2.5em;
-                        color: #9933FF;
-                    }
-                }
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-top: 16px;
+                margin-bottom: 1px;
+                display: flex;
+                align-items: center;
+               }
+            }
+
+            .container__home--linhas {
+                height: 154px;
+                width: 1551px;
+                margin-top: 116px;
+                margin-bottom: 278px;
+                
+
             }
 
             // .container__home--social{
