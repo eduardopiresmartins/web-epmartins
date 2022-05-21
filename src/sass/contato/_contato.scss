@@ -14,10 +14,10 @@
         
         h2{
             margin-bottom: 15px;
-            font-size: 3em;
+            font-size: 3.25em;
+            font-family: Saira;
+            font-weight: 300;
             color: $texto-cor-primaria;
-            font-family: $font-primaria;
-            font-weight: 400;
         }
         .divisao{
         margin-bottom: 35px;
@@ -31,14 +31,18 @@
         font-family: $font-primaria;
 
         h3{
-            font-size: 3em;
+            font-size: 2.25em;
+            font-weight: 250;
+            font-family: Saira;
             max-width: 45%;
             line-height: 60px;
-            font-weight: 400;
+            
             margin-bottom: 37px;
         }
         p{
-            font-size: 1.3em;
+            font-size: 1.25em;
+            font-family: Saira;
+            font-weight: 100;
             color: $textp-cor-terceira;
             margin-bottom: 37px;
         }
@@ -65,7 +69,8 @@
                     text-decoration: none;
                     color: $texto-cor-primaria;
                     font-size: 1.125em;
-                    font-weight: 300;
+                    font-family: Saira;
+                    font-weight: 100;
                 }
             }
 

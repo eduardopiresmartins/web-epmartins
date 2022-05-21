@@ -29,15 +29,17 @@ footer{
             color: #FFF;
             width: 50%;
             h2{
-                font-size: 2em;
-                margin-bottom: 5px;
+                font-size: 1.875em;
+                font-family: Saira;
+                font-weight: 250;
+                margin-bottom: 25px;
             }
             p{
-                font-size: 18px;
-                font-weight: 400;
+                font-size: 1.125em;
+                font-weight: 100;
                 font-family: Saira;
                 color: #A0A0A0 ;
-                padding-bottom: 15px;
+                padding-bottom: 25px;
             }
 
             .container__footer--form{
@@ -51,6 +53,9 @@ footer{
                     border: none;
                     border-radius: 5px;
                     margin-right: 8px;
+                    font-size: 0.813em;
+                    font-family: Saira;
+                    font-weight: 200;
 
                 }
 
@@ -62,6 +67,9 @@ footer{
                     border: none;
                     background: linear-gradient(90deg, #F900F1 0%, #8620E0 100%);
                     color: #FFF;
+                    font-size: 1.125em;
+                    font-family: Saira;
+                    font-weight: 200;
                 }
             }
         }
@@ -90,9 +98,10 @@ footer{
         align-items: center;
 
         p{
-            font-size: 1.2em;
-            color: #A0A0A0
-            ;
+            font-size: 0.813em;
+            font-family: Saira;
+            font-weight: 200;
+            color: #A0A0A0;
 
             img{
                 margin: 0px 5px;

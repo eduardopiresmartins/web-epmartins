@@ -9,10 +9,10 @@
     justify-content: center;
     h2{
         margin-bottom: 15px;
-        font-size: 3em;
+        font-size: 3.25em;
+        font-family: Saira;
+        font-weight: 300;
         color: $texto-cor-primaria;
-        font-family: $font-primaria;
-        font-weight: 400;
     } 
 
     .divisao__equipe{
@@ -41,7 +41,9 @@
                 display: flex;
                 align-items: center;
                 h3{
-                    font-size: 3em;
+                    font-size: 2.25em;
+                    font-family: Saira;
+                    font-weight: 250;
                 }
 
                 img{
@@ -67,8 +69,24 @@
                 justify-content: space-evenly;
 
                 p{
-                    font-size: 2em;
+                    font-size: 1.5em;
+                    font-family: Saira;
+                    font-weight: 200;
+                    text-align: left;
+        
                 }
+            }
+
+            .portfolio--descritivo--data{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                p{
+                    font-size: 1em;
+                    font-family: Saira;
+                    font-weight: 200;
+                }   
             }
    
         }

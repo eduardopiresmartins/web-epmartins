@@ -272,8 +272,8 @@ table {
 }
 
 .home .container__home .container__home--texto .container__home--linhas {
-  height: 154px;
-  width: 1551px;
+  width: 100%;
+  left: -92px;
   margin-top: 116px;
   margin-bottom: 278px;
 }
@@ -314,8 +314,10 @@ table {
 }
 
 .fazer .container__fazer .container__fazer--texto h2 {
-  font-size: 2.5em;
-  line-height: 80px;
+  font-size: 3.25em;
+  font-family: Saira;
+  font-weight: 300;
+  line-height: 81.85px;
 }
 
 .fazer .container__fazer .container__fazer--texto .divisao {
@@ -327,12 +329,18 @@ table {
 }
 
 .fazer .container__fazer .container__fazer--texto h3 {
-  font-size: 2.1em;
+  font-size: 2.25em;
+  font-family: Saira;
+  font-weight: 250;
+  line-height: 56.66px;
   margin-bottom: 30px;
 }
 
 .fazer .container__fazer .container__fazer--texto p {
   font-size: 1.2em;
+  font-family: Saira;
+  font-weight: 100;
+  line-height: 27px;
   color: #5c5b5b;
 }
 
@@ -350,7 +358,7 @@ table {
 }
 
 .fazer .container__fazer .container__fazer--img img {
-  width: 300px;
+  width: 700px;
 }
 
 .contato {
@@ -371,10 +379,10 @@ table {
 
 .contato .container__contato h2 {
   margin-bottom: 15px;
-  font-size: 3em;
+  font-size: 3.25em;
+  font-family: Saira;
+  font-weight: 300;
   color: #FFFFFF;
-  font-family: "Saira", sans-serif;
-  font-weight: 400;
 }
 
 .contato .container__contato .divisao {
@@ -391,15 +399,18 @@ table {
 }
 
 .contato .container__contato .container__contato--texto h3 {
-  font-size: 3em;
+  font-size: 2.25em;
+  font-weight: 250;
+  font-family: Saira;
   max-width: 45%;
   line-height: 60px;
-  font-weight: 400;
   margin-bottom: 37px;
 }
 
 .contato .container__contato .container__contato--texto p {
-  font-size: 1.3em;
+  font-size: 1.25em;
+  font-family: Saira;
+  font-weight: 100;
   color: #a0a0a0;
   margin-bottom: 37px;
 }
@@ -445,7 +456,8 @@ table {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 1.125em;
-  font-weight: 300;
+  font-family: Saira;
+  font-weight: 100;
 }
 
 .contato .container__contato .container__contato--botoa .botao--caixa .botao--img img {
@@ -506,16 +518,18 @@ footer .container__footer .container__footer--infos {
 }
 
 footer .container__footer .container__footer--infos h2 {
-  font-size: 2em;
-  margin-bottom: 5px;
+  font-size: 1.875em;
+  font-family: Saira;
+  font-weight: 250;
+  margin-bottom: 25px;
 }
 
 footer .container__footer .container__footer--infos p {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 1.125em;
+  font-weight: 100;
   font-family: Saira;
   color: #A0A0A0;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 footer .container__footer .container__footer--infos .container__footer--form {
@@ -530,6 +544,9 @@ footer .container__footer .container__footer--infos .container__footer--form inp
   border: none;
   border-radius: 5px;
   margin-right: 8px;
+  font-size: 0.813em;
+  font-family: Saira;
+  font-weight: 200;
 }
 
 footer .container__footer .container__footer--infos .container__footer--form button {
@@ -541,6 +558,9 @@ footer .container__footer .container__footer--infos .container__footer--form but
   background: -webkit-gradient(linear, left top, right top, from(#F900F1), to(#8620E0));
   background: linear-gradient(90deg, #F900F1 0%, #8620E0 100%);
   color: #FFF;
+  font-size: 1.125em;
+  font-family: Saira;
+  font-weight: 200;
 }
 
 footer .container__footer .container__footer--img {
@@ -578,7 +598,9 @@ footer .container__footer--direitos {
 }
 
 footer .container__footer--direitos p {
-  font-size: 1.2em;
+  font-size: 0.813em;
+  font-family: Saira;
+  font-weight: 200;
   color: #A0A0A0;
 }
 
@@ -596,10 +618,10 @@ footer .container__footer--direitos p img {
 .equipe h2 {
   padding-top: 45px;
   margin-bottom: 15px;
-  font-size: 3em;
+  font-size: 3.25em;
+  font-family: Saira;
+  font-weight: 300;
   color: #FFFFFF;
-  font-family: "Saira", sans-serif;
-  font-weight: 400;
   padding-left: 60px;
 }
 
@@ -771,10 +793,10 @@ footer .container__footer--direitos p img {
 
 .portfolio h2 {
   margin-bottom: 15px;
-  font-size: 3em;
+  font-size: 3.25em;
+  font-family: Saira;
+  font-weight: 300;
   color: #FFFFFF;
-  font-family: "Saira", sans-serif;
-  font-weight: 400;
 }
 
 .portfolio .divisao__equipe {
@@ -815,7 +837,9 @@ footer .container__footer--direitos p img {
 }
 
 .portfolio .container__portfolio .container__portfolio--caixa .portfolio--titulo h3 {
-  font-size: 3em;
+  font-size: 2.25em;
+  font-family: Saira;
+  font-weight: 250;
 }
 
 .portfolio .container__portfolio .container__portfolio--caixa .portfolio--titulo img {
@@ -846,7 +870,29 @@ footer .container__footer--direitos p img {
 }
 
 .portfolio .container__portfolio .container__portfolio--caixa .portfolio--descritivo p {
-  font-size: 2em;
+  font-size: 1.5em;
+  font-family: Saira;
+  font-weight: 200;
+  text-align: left;
+}
+
+.portfolio .container__portfolio .container__portfolio--caixa .portfolio--descritivo--data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.portfolio .container__portfolio .container__portfolio--caixa .portfolio--descritivo--data p {
+  font-size: 1em;
+  font-family: Saira;
+  font-weight: 200;
 }
 
 .container__home--social {
