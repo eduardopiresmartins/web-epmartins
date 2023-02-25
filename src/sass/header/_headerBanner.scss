@@ -38,14 +38,20 @@
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
-
-                img{
-                  height: 70px;
-                  width: 70px;
+  
+                .home__persona--img{
+                   height: 70px;
+                   width: 70px;
+                   margin: 15px;
+                   border-radius: 55px  55px 55px 0px; 
+                   border: 4px solid transparent;
+                   padding: 5px;
+                   background: linear-gradient( #000, #000 ) padding-box,
+                    linear-gradient(to right, #F900F1, #9933FF ) border-box;
+                    //font: ;
                 }
-            }
+            }   
 
-           
             h1{
                 margin-left: 35px;
                 margin-bottom: 15px;
@@ -94,7 +100,6 @@
                 left: 90px;
                 top: 477px;
                 border-radius: 0px;
-
                 margin-left: 35px;
                 margin-right: 35px;
                 margin-top: 16px;
@@ -111,45 +116,6 @@
                 margin-bottom: 278px;
                 
             }
-
-            // .container__home--social{
-            //     margin-top: 35px;
-            //     ul{
-            //         display: flex;
-            //         flex-direction: row;
-            //         margin-left: 35px;
-
-                    
-                    
-            //         li{
-            //             background-color: #313131;
-            //             border-radius: 50%;
-            //             margin: 0px 5px ;
-            //             height: 45px;
-            //             width: 45px;
-            //             display: flex;
-            //             justify-content: center;
-            //             align-items: center;
-            //             transition: 0.7s ease-in-out;
-            //             &:hover{
-            //                 transform: scale(1.2);
-            //             }
-
-            //             a{
-            //                 text-decoration: none;
-
-            //                 img{
-            //                     height: 22px;
-
-            //                 }
-            //                 #youtube{
-            //                     margin-top: 6px;
-            //                 }
-            //             }
-            //         }
-
-            //     }
-            // }
         }
 
         .container__home--logo{
