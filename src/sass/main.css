@@ -113,49 +113,62 @@ table {
 .home {
   background-color: #0A0A0A;
   color: white;
-  height: auto;
+  height: 650px;
   font-family: "Saira", sans-serif;
   padding: 80px 0px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
 }
 .home .container__home {
+  width: 90%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .home .container__home .container__home--texto {
   width: 50%;
   display: flex;
+  padding: 15px;
   flex-direction: column;
   justify-content: center;
-  padding-left: 35px;
+  align-items: center;
 }
 .home .container__home .container__home--texto .container__home--apresentacao {
   display: flex;
-  height: 80px;
-  align-items: flex-end;
+  height: auto;
+  align-items: flex-start;
   justify-content: space-between;
   width: 100%;
+  flex-direction: column;
+  position: relative;
 }
 .home .container__home .container__home--texto .container__home--apresentacao h2 {
   font-size: 1.25em;
   font-family: Saira;
   font-weight: 400;
-  margin-left: 35px;
   margin-bottom: 15px;
-  background: linear-gradient(to right, #9933FF 0%, #F900F1);
+  background: linear-gradient(to right, #9933ff 0%, #f900f1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.home .container__home .container__home--texto .container__home--apresentacao .home__persona--img {
+.home .container__home .container__home--texto .container__home--apresentacao .container__home--name {
+  position: relative;
+}
+.home .container__home .container__home--texto .container__home--apresentacao .container__home--name .home__persona--img {
+  position: absolute;
+  top: -105px;
+  right: -105px;
   height: 70px;
   width: 70px;
   margin: 15px;
   border-radius: 55px 55px 55px 0px;
   border: 4px solid transparent;
   padding: 5px;
-  background: linear-gradient(#000, #000) padding-box, linear-gradient(to right, #F900F1, #9933FF) border-box;
+  background: linear-gradient(#000, #000) padding-box, linear-gradient(to right, #f900f1, #9933ff) border-box;
 }
 .home .container__home .container__home--texto h1 {
-  margin-left: 35px;
   margin-bottom: 15px;
   font-size: 5em;
   font-family: Saira;
@@ -163,7 +176,6 @@ table {
   color: #FFFFFF;
 }
 .home .container__home .container__home--texto p {
-  margin-left: 35px;
   margin-bottom: 15px;
   color: #5c5b5b;
   font-size: 1.25em;
@@ -172,7 +184,7 @@ table {
   line-height: 1.8em;
 }
 .home .container__home .container__home--texto .container__home--local {
-  margin-left: 35px;
+  width: 100%;
   color: #5c5b5b;
   display: flex;
   align-items: center;
@@ -185,27 +197,23 @@ table {
   font-family: Saira;
   font-weight: 300;
 }
+.home .container__home .container__home--texto .container__home--pontos {
+  width: 100%;
+}
 .home .container__home .container__home--texto .container__home--pontos img {
   height: 17.5599999428px;
   width: 272.9400024414px;
   left: 90px;
   top: 477px;
   border-radius: 0px;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-left: 5px;
   margin-top: 16px;
   margin-bottom: 1px;
   display: flex;
   align-items: center;
 }
-.home .container__home .container__home--texto .container__home--linhas {
-  width: 100%;
-  left: -92px;
-  margin-top: 116px;
-  margin-bottom: 278px;
-}
 .home .container__home .container__home--logo {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: center;
 }
@@ -782,7 +790,7 @@ footer .container__footer--direitos p img {
 
 .container__home--social {
   margin-top: 35px;
-  margin-left: 25px;
+  width: 100%;
 }
 
 .container__home--social ul {
@@ -790,7 +798,6 @@ footer .container__footer--direitos p img {
   flex-direction: row;
   margin: 0;
   padding: 0;
-  display: flex;
 }
 
 .container__home--social ul li {

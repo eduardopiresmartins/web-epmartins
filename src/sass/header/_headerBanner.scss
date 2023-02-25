@@ -1,130 +1,127 @@
 .home {
-    background-color: $preto-principal;
-    color: white;
-    height: auto;
-    font-family: $font-primaria;
-    padding: 80px 0px;
-
-
-    .container__home {
-        display: flex;
-        flex-direction: row;
-
-
-        .container__home--texto{
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding-left: 35px;
-
-
-            .container__home--apresentacao{
-                display: flex;
-                height: 80px;
-                align-items: flex-end;
-                justify-content: space-between;
-                width: 100%;
-
-                
-                h2{
-                    
-                    font-size: 1.25em;
-                    font-family: Saira;
-                    font-weight:400;
-                    margin-left: 35px;
-                    margin-bottom: 15px;
-                    background: linear-gradient(to right, #9933FF 0%, #F900F1);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                }
+  background-color: $preto-principal;
+  color: white;
+  height: 650px;
+  font-family: $font-primaria;
+  padding: 80px 0px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
   
-                .home__persona--img{
-                   height: 70px;
-                   width: 70px;
-                   margin: 15px;
-                   border-radius: 55px  55px 55px 0px; 
-                   border: 4px solid transparent;
-                   padding: 5px;
-                   background: linear-gradient( #000, #000 ) padding-box,
-                    linear-gradient(to right, #F900F1, #9933FF ) border-box;
-                    //font: ;
-                }
-            }   
+  .container__home {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    .container__home--texto {
+      width: 50%;
+      display: flex;
+      padding: 15px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      //padding-left: 35px;
 
-            h1{
-                margin-left: 35px;
-                margin-bottom: 15px;
-                font-size: 5em;
-                font-family: Saira;
-                font-weight: 300;
-                color: $texto-cor-primaria;
-                
-                
-            }
-
-            p {
-                margin-left: 35px;
-                margin-bottom: 15px;
-                color: $texto-cor-secundaria;
-                font-size: 1.25em;
-                font-family: Saira;
-                font-weight: 200;
-                line-height: 1.8em;
-            }
-
-
-
-            .container__home--local{
-                margin-left: 35px;
-                color: $texto-cor-secundaria;
-                display: flex;
-                align-items: center;
-
-                .local--img{
-                    img{
-                        height: 30px;
-                    }
-                }
-              .local--texto{
-                  font-size: 1em;
-                  font-family: Saira;
-                  font-weight: 300;
-              }
-            }
-
-            .container__home--pontos{
-               img{
-                height: 17.559999942779541px;
-                width: 272.94000244140625px;
-                left: 90px;
-                top: 477px;
-                border-radius: 0px;
-                margin-left: 35px;
-                margin-right: 35px;
-                margin-top: 16px;
-                margin-bottom: 1px;
-                display: flex;
-                align-items: center;
-               }
-            }
-
-            .container__home--linhas {
-                width: 100%;
-                left: -92px;
-                margin-top: 116px;
-                margin-bottom: 278px;
-                
-            }
+      .container__home--apresentacao {
+        display: flex;
+        height: auto;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+        h2 {
+          font-size: 1.25em;
+          font-family: Saira;
+          font-weight: 400;
+          //margin-left: 35px;
+          margin-bottom: 15px;
+          background: linear-gradient(to right, #9933ff 0%, #f900f1);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
-
-        .container__home--logo{
-            width: 40%;
-            display: flex;
-            justify-content: center;
-            img{
-                height: 400px;
-            }
+        .container__home--name {
+          position: relative;
+          .home__persona--img {
+            position: absolute;
+            top: -105px;
+            right: -105px;
+            height: 70px;
+            width: 70px;
+            margin: 15px;
+            border-radius: 55px 55px 55px 0px;
+            border: 4px solid transparent;
+            padding: 5px;
+            background: linear-gradient(#000, #000) padding-box,
+              linear-gradient(to right, #f900f1, #9933ff) border-box;
+          }
         }
+      }
+
+      h1 {
+        //margin-left: 35px;
+        margin-bottom: 15px;
+        font-size: 5em;
+        font-family: Saira;
+        font-weight: 300;
+        color: $texto-cor-primaria;
+      }
+
+      p {
+        //margin-left: 35px;
+        margin-bottom: 15px;
+        color: $texto-cor-secundaria;
+        font-size: 1.25em;
+        font-family: Saira;
+        font-weight: 200;
+        line-height: 1.8em;
+      }
+
+      .container__home--local {
+        width: 100%;
+        //margin-left: 65px;
+        color: $texto-cor-secundaria;
+        display: flex;
+        align-items: center;
+
+        .local--img {
+          img {
+            height: 30px;
+          }
+        }
+        .local--texto {
+          font-size: 1em;
+          font-family: Saira;
+          font-weight: 300;
+        }
+      }
+
+      .container__home--pontos {
+        width: 100%;
+        img {
+          height: 17.559999942779541px;
+          width: 272.94000244140625px;
+          left: 90px;
+          top: 477px;
+          border-radius: 0px;
+          margin-left: 5px;
+          //margin-right: 35px;
+          margin-top: 16px;
+          margin-bottom: 1px;
+          display: flex;
+          align-items: center;
+        }
+      }
     }
+
+    .container__home--logo {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      img {
+        height: 400px;
+      }
+    }
+  }
 }
