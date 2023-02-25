@@ -53,23 +53,32 @@
     color: #A0A0A0;
     transition: .5s;
   }
-  
-  .container__home--social ul li:nth-child(1) a:hover .fab {
-    color: #037fac;
-  }
-  
-  .container__home--social ul li:nth-child(2) a:hover .fab {
-    color: #00aced;
-  }
-  
-  .container__home--social  ul li:nth-child(3) a:hover .fab {
-    color: #dd4b39;
-  }
-  
-  .container__home--social  ul li:nth-child(4) a:hover .fab {
-    color: #007bb6;
-  }
-  
-  .container__home--social  ul li:nth-child(5) a:hover .fab {
-    color: #e4405f;
-  }
+  .container__home--social{
+    .container__home--social, #icons-linkedin:hover{
+        color: #0072b1;
+    }
+    .container__home--social, #icons-github:hover{
+        color: #171515;
+    }
+    .container__home--social, #icons-instagram:hover{
+        color: #4267B2;
+    }
+    .container__home--social, #icons-facebook:hover{
+        color: #7289d9;
+    }
+    .container__home--social, #icons-youtube:hover{
+        color: #FF0000;
+    }
+    .container__home--social, #icons-codepan:hover{
+        color: #FFFFFF;
+    }
+    .container__home--social, #icons-discord:hover{
+        color: #5865F2;
+    }
+    .container__home--social, #icons-twitter:hover{
+        color: #00ACEE;
+    }
+    .container__home--social, #icons-google:hover{
+        color: #DB4A39;
+    }
+}

@@ -145,9 +145,14 @@ table {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.home .container__home .container__home--texto .container__home--apresentacao img {
+.home .container__home .container__home--texto .container__home--apresentacao .home__persona--img {
   height: 70px;
   width: 70px;
+  margin: 15px;
+  border-radius: 55px 55px 55px 0px;
+  border: 4px solid transparent;
+  padding: 5px;
+  background: linear-gradient(#000, #000) padding-box, linear-gradient(to right, #F900F1, #9933FF) border-box;
 }
 .home .container__home .container__home--texto h1 {
   margin-left: 35px;
@@ -597,24 +602,6 @@ footer .container__footer--direitos p img {
   margin: 0 45px;
 }
 
-@-webkit-keyframes vibrate {
-  0% {
-    padding: 1px;
-  }
-  25% {
-    padding: 5px;
-  }
-  50% {
-    padding: 30px;
-  }
-  75% {
-    padding: 5px;
-  }
-  100% {
-    padding: 1px;
-  }
-}
-
 @keyframes vibrate {
   0% {
     padding: 1px;
@@ -825,22 +812,30 @@ footer .container__footer--direitos p img {
   transition: 0.5s;
 }
 
-.container__home--social ul li:nth-child(1) a:hover .fab {
-  color: #037fac;
+.container__home--social .container__home--social, .container__home--social #icons-linkedin:hover {
+  color: #0072b1;
 }
-
-.container__home--social ul li:nth-child(2) a:hover .fab {
-  color: #00aced;
+.container__home--social .container__home--social, .container__home--social #icons-github:hover {
+  color: #171515;
 }
-
-.container__home--social ul li:nth-child(3) a:hover .fab {
-  color: #dd4b39;
+.container__home--social .container__home--social, .container__home--social #icons-instagram:hover {
+  color: #4267B2;
 }
-
-.container__home--social ul li:nth-child(4) a:hover .fab {
-  color: #007bb6;
+.container__home--social .container__home--social, .container__home--social #icons-facebook:hover {
+  color: #7289d9;
 }
-
-.container__home--social ul li:nth-child(5) a:hover .fab {
-  color: #e4405f;
+.container__home--social .container__home--social, .container__home--social #icons-youtube:hover {
+  color: #FF0000;
+}
+.container__home--social .container__home--social, .container__home--social #icons-codepan:hover {
+  color: #FFFFFF;
+}
+.container__home--social .container__home--social, .container__home--social #icons-discord:hover {
+  color: #5865F2;
+}
+.container__home--social .container__home--social, .container__home--social #icons-twitter:hover {
+  color: #00ACEE;
+}
+.container__home--social .container__home--social, .container__home--social #icons-google:hover {
+  color: #DB4A39;
 }/*# sourceMappingURL=main.css.map */
